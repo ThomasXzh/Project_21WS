@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="311be572-1eec-4bbd-989a-891fb141bbbe" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="311be572-1eec-4bbd-989a-891fb141bbbe" name="变更" comment="12">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_sort_pytorch/deep_sort/deep_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/deep_sort_pytorch/deep_sort/deep_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/track.py" beforeDir="false" afterPath="$PROJECT_DIR$/track.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RunManager" selected="Python.track">
     <configuration name="detect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -125,8 +127,17 @@
       <workItem from="1638641306530" duration="16865000" />
       <workItem from="1638782472224" duration="3147000" />
       <workItem from="1638785719278" duration="6996000" />
-      <workItem from="1638801705482" duration="644000" />
+      <workItem from="1638801705482" duration="9139000" />
+      <workItem from="1638818188628" duration="1505000" />
     </task>
+    <task id="LOCAL-00001" summary="12">
+      <created>1638802662450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638802662451</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,16 +153,19 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/PJD_21WS" />
       <path value="$PROJECT_DIR$/yolov5" />
     </ignored-roots>
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Yolov5_DeepSort_Pytorch$detect.coverage" NAME="detect 覆盖结果" MODIFIED="1638634211675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolov5" />
     <SUITE FILE_PATH="coverage/Yolov5_DeepSort_Pytorch$track__1_.coverage" NAME="track (1) 覆盖结果" MODIFIED="1638715003462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_sort_pytorch/deep_sort/sort" />
-    <SUITE FILE_PATH="coverage/Yolov5_DeepSort_Pytorch$track.coverage" NAME="track 覆盖结果" MODIFIED="1638795376425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Yolov5_DeepSort_Pytorch$track.coverage" NAME="track 覆盖结果" MODIFIED="1638805934637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -49,7 +49,7 @@ def detect(opt):
     # Initialize
     device = select_device(opt.device)
     half &= device.type != 'cpu'  # half precision only supported on CUDA
-
+    output_1 = []
     # The MOT16 evaluation runs multiple inference streams in parallel, each one writing to
     # its own .txt file. Hence, in that case, the output folder is not restored
     if not evaluate:
@@ -146,7 +146,20 @@ def detect(opt):
                 clss = det[:, 5]
 
                 # pass detections to deepsort
-                outputs = deepsort.update(xywhs.cpu(), confs.cpu(), clss.cpu(), im0)
+                output_0 = output_1
+                output_1 = deepsort.update(xywhs.cpu(), confs.cpu(), clss.cpu(), im0)[1]
+
+                if len(output_0) > 0:
+                    for i in range(len(output_0)):
+                        for j in range(len(output_1)):
+                            if output_0[i][2] == output_1[j][2]:
+                                ydis = output_1[j][1] - output_0[i][1]
+                                ytime = t3 - t2
+                                v = ydis / ytime
+                                print([v, output_0[i][2]])
+                # print(output_0)
+                # print(output_1)
+                outputs = deepsort.update(xywhs.cpu(), confs.cpu(), clss.cpu(), im0)[0]
                 
                 # draw boxes for visualization
                 if len(outputs) > 0:

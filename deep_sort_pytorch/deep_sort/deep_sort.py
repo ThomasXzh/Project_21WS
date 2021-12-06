@@ -61,11 +61,9 @@ class DeepSort(object):
             outputs = np.stack(outputs, axis=0)
             # 计算底边中点坐标
             outputs_new = np.stack(outputs_new, axis=0)
-            file_handle = open('1.txt', mode='w')
-            print(outputs_new)
-            file_handle.writelines('outputs_new\n')
+            # print(outputs_new)
             # 计算底边中点坐标
-        return outputs
+        return [outputs, outputs_new]
 
     """
     TODO:
